@@ -24,12 +24,6 @@ module.exports = () => {
         chunks: ['main'],
         filename: 'index.html'
       }),
-      // new HtmlWebpackPlugin({
-      //   template: './src/install.html',
-      //   inject: true,
-      //   chunks: ['install'],
-      //   filename: 'install.html'
-      // }),
       new WebpackPwaManifest({
         name: 'JATE',
         short_name: 'JATE',
