@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
+    "start": "npm-run-all --parallel start:client start:server",
     "start:client": "cd client && npm start",
     "start:server": "cd server && npm start",
     "build:client": "cd client && npm run build",
@@ -19,7 +19,7 @@
     "core-js": "^3.29.1",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
-    "concurrently": "^5.3.0"
+    "run-all": "^1.0.1"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
