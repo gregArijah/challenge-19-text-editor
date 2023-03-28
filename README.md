@@ -12,7 +12,7 @@ This app is a PWA text editor app which can be run in the browser or downloaded 
 
 ## Usage
 
-Navigate to the deployed link to use to app, Click the install button to download it and use it offline.
+[Navigate to the deployed link](https://sleepy-headland-24382.herokuapp.com/) to use to app, Click the install button to download it and use it offline. 
 
 ## License
 
